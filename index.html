@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>MAdVerse</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MAdVerse</title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css">
-        <link rel="stylesheet" href="static/css/local.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css">
+    <link rel="stylesheet" href="static/css/local.css">
+    <link rel="stylesheet" href="static/css/visualisation.css">
 </head>
+
 <body data-new-gr-c-s-check-loaded="8.909.0" data-gr-ext-installed="">
     <div class="start container text-dark p-2 mt-5">
         <div class="text-center">
@@ -40,24 +43,39 @@
                     <h5 style="color: red">Dataset and code available soon</h5>
                 </div>
             </h2>
-                <br>
-                <section class="paper">
-                    <div style="text-align:center;margin: 20px 0;">
-                        <img src="static/images/modified_starting_diag.jpg" width="800px">
-                    </div>
-                </section>
+            <br>
+            <section class="paper">
+                <div style="text-align:center;margin: 20px 0;">
+                    <img src="static/images/modified_starting_diag.jpg" width="800px">
+                </div>
+            </section>
             </h2>
         </div>
         <hr>
         <section class="paper p-3">
-            <center><h4>Abstract</h4></center>
+            <center>
+                <h4>Abstract</h4>
+            </center>
             <div class="abstracttext p-3 p-md-0 pl-md-4 mt-1">
-                <p>The convergence of computer vision and advertising has sparked substantial interest lately. Existing advertisement datasets often derive from subsets of established data with highly specialized annotations or feature diverse annotations without a cohesive taxonomy among ad images. Notably, no datasets encompass diverse advertisement styles or semantic grouping at various levels of granularity for a better understanding of ads. Our work addresses this gap by introducing MAdVerse, an extensive, multilingual compilation of more than 50,000 ads from the web, social media websites, and e-newspapers. Advertisements are hierarchically grouped with uniform granularity into 11 categories, divided into 51 sub-categories, and 524 finegrained brands at leaf level, each featuring ads in various languages. Furthermore, we provide comprehensive baseline classification results for various pertinent prediction tasks within the realm of advertising analysis. Specifically, these tasks include hierarchical ad classification, source classification, multilingual classification, and inducing hierarchy in existing ad datasets</p>
+                <p>The convergence of computer vision and advertising has sparked substantial interest lately. Existing
+                    advertisement datasets often derive from subsets of established data with highly specialized
+                    annotations or feature diverse annotations without a cohesive taxonomy among ad images. Notably, no
+                    datasets encompass diverse advertisement styles or semantic grouping at various levels of
+                    granularity for a better understanding of ads. Our work addresses this gap by introducing MAdVerse,
+                    an extensive, multilingual compilation of more than 50,000 ads from the web, social media websites,
+                    and e-newspapers. Advertisements are hierarchically grouped with uniform granularity into 11
+                    categories, divided into 51 sub-categories, and 524 finegrained brands at leaf level, each featuring
+                    ads in various languages. Furthermore, we provide comprehensive baseline classification results for
+                    various pertinent prediction tasks within the realm of advertising analysis. Specifically, these
+                    tasks include hierarchical ad classification, source classification, multilingual classification,
+                    and inducing hierarchy in existing ad datasets</p>
             </div>
         </section>
         <hr><br>
         <section id="paper" class="paper p-2 p-md-4 mt-2">
-            <center><h4>Paper</h4></center>
+            <center>
+                <h4>Paper</h4>
+            </center>
             <div class="col-md-11 mx-auto papercont mt-md-0 mt-4">
                 <div style="display: flex;justify-content: center;" class="papersubcont">
                     <a href="#"><img src="static/images/paper_collate.jpg" width="480px"></a>
@@ -79,6 +97,7 @@ year = {2024}
         </section>
         <hr>
 
+
         <section class="paper p-md-4">
             <center>
                 <h4>Hierarchy visualization</h4>
@@ -95,21 +114,27 @@ year = {2024}
             </div>
 
         </section>
-
+    
 
         <footer class="mt-5">
             <center>
-                <small>The webpage template was adapted from <a href="https://katha-ai.github.io/projects/emotx">EmoTx</a></small>
+                <small>The webpage template was adapted from <a
+                        href="https://katha-ai.github.io/projects/emotx">EmoTx</a></small>
                 <br><br>
             </center>
         </footer>
+
 
     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="static/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://unpkg.com/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="static/js/visualisation.js"></script>
 </body>
+
 </html>
