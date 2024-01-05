@@ -2905,7 +2905,7 @@ function click(d) {
     d = toggleChildren(d);
     //console.log(d._children)
     if (!d.children && !d._children && !d.name.includes("MISC")) {
-        let folder = './static/images/sample_images/' + d.name.substring(0, d.name.indexOf("_")) + '/'
+        let folder = 'static/images/sample_images/' + d.name.substring(0, d.name.indexOf("_")) + '/'
         for (var i = 0; i < 2; i++) {
             images.push(folder + i + '.jpg')
         }
@@ -2916,7 +2916,7 @@ function click(d) {
         console.log(d.name.substring(d.name.lastIndexOf("_") + 1))
         if (num > 2)
             num = 2
-        let folder = './static/images/sample_images/' + d.name + '/'
+        let folder = 'static/images/sample_images/' + d.name + '/'
         for (var i = 0; i < num; i++) {
             images.push(folder + i + '.jpg')
         }
