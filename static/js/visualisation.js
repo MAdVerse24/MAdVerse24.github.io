@@ -2721,7 +2721,7 @@ var root;
 var images = [];
 // size of the diagram
 var viewerWidth = $(document).width() * 0.7;
-var viewerHeight = $(document).height() * 0.3;
+var viewerHeight = $(document).height() * 0.4;
 
 var tree = d3.layout.tree()
     .size([viewerHeight, viewerWidth]);
@@ -2876,7 +2876,7 @@ function centerNode(source) {
     scale = zoomListener.scale();
     x = -source.y0;
     y = -source.x0;
-    x = x * scale + viewerWidth / 2;
+    x = x * scale + viewerWidth / 5;
     y = y * scale + viewerHeight / 2;
     d3.select('g').transition()
         .duration(duration)
