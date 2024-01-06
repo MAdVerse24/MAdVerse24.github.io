@@ -41,6 +41,8 @@
 
 .wrapper {
     align-content: center;
+    border-style: groove;
+    border-radius: 25px;
     /* background-color: #c8dbe1; */
 
 }
