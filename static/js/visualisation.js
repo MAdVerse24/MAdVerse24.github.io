@@ -1,6 +1,6 @@
 // treeJSON = d3.json("keyword.json", function (error, treeData) {
 var treeData = {
-    name: "IndicAds_22437",
+    name: "Ads_22437",
     children: [
         {
             name: "sports_323",
