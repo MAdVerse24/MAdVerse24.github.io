@@ -41,8 +41,8 @@
 
 .wrapper {
     align-content: center;
-    border-style: groove;
-    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
     /* background-color: #c8dbe1; */
 
 }
@@ -54,7 +54,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     display: none;
     align-items: flex-start;
     /* Changed from center to flex-start */
