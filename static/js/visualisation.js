@@ -2720,7 +2720,7 @@
     var root;
     var images = [];
     // size of the diagram
-    var viewerWidth = $(document).width() * 0.557;
+    var viewerWidth = $(document).width() * 0.785;
     var viewerHeight = $(document).height() * 0.28;
     
     var tree = d3.layout.tree()
